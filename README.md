@@ -52,9 +52,9 @@ import matplotlib.pyplot as plt
 
 
 # Read the image
-img = cv2.imread('joker.jpg')
+img = cv2.imread('dog.jpeg')
 o_image = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-image_path = 'joker.jpg'
+image_path = 'dog.jpeg'
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
 if image is None:
